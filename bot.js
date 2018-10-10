@@ -6,7 +6,7 @@ client.on('ready', async () => {
       let ReBeL = ["هلا بلزين تراني بوت تبند اشيلك","هي انا بولعها كريديتس لوووووول","Hi Im Credits Agaaaaaaaaain"]
   setInterval(() => {
 client.channels.get("496396341795356692").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},18000);
+},10000);
 });
 
 
