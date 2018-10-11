@@ -33,5 +33,5 @@ client.on('ready', () => {
 
 
 client.login(process.env.SPAM);
-heros.login(process.env.SPAM1);
-other.login(process.env.SPAM2);
+heros.login(process.env.HER);
+other.login(process.env.OTH);
