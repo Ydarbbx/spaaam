@@ -7,20 +7,14 @@ const other = new Discord.Client();
 client.on('ready', async () => {
       let ReBeL = ["هلا بلزين تراني بوت تبند اشيلك","هي انا بولعها كريديتس لوووووول","Hi Im Credits Agaaaaaaaaain"]
   setInterval(() => {
-client.channels.get("496396341795356692").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},5000);
+client.channels.get("504763076504190976").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},4000);
 });
 other.on('ready', async () => {
       let ReBeL = ["هلا بلزين تراني بوت تبند اشيلك","هي انا بولعها كريديتس لوووووول","Hi Im Credits Agaaaaaaaaain"]
   setInterval(() => {
-client.channels.get("496396341795356692").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},5000);
-});
-heros.on('ready', async () => {
-      let ReBeL = ["هلا بلزين تراني بوت تبند اشيلك","هي انا بولعها كريديتس لوووووول","Hi Im Credits Agaaaaaaaaain"]
-  setInterval(() => {
-client.channels.get("496396341795356692").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},5000);
+client.channels.get("504763092614250529").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},4000);
 });
 
 
@@ -32,6 +26,5 @@ client.on('ready', () => {
 
 
 
-client.login(process.env.SPAM);
-heros.login(process.env.HER);
-other.login(process.env.OTH);
+client.login(process.env.cre2);
+other.login(process.env.cre1);
