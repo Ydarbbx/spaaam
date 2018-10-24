@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const other = new Discord.Client();
 
 other.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Logged in as ${other.user.tag}!`);
 });
 
 other.on('ready', async () => {
