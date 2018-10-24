@@ -27,3 +27,4 @@ client.on('ready', () => {
 
 
 client.login(process.env.cre2);
+other.login(process.env.cre1)
