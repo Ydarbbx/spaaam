@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const heros = new Discord.Client();
-const other = new Discord.Client();
 
 
 client.on('ready', async () => {
@@ -27,4 +25,3 @@ client.on('ready', () => {
 
 
 client.login(process.env.cre2);
-other.login(process.env.cre1)
