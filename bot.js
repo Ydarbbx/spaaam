@@ -19,4 +19,4 @@ client.on('ready', () => {
 
 
 
-client.login(process.env.cre2);
+client.login("NDY0NDY5NjA2NjMxOTk3NDQy.DrY8KQ.QaV0IO7kPwe8jnmekOvY2LV5STM");
