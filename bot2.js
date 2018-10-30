@@ -12,4 +12,4 @@ other.channels.get("505811455740739595").send(`${ReBeL[Math.floor(Math.random() 
 },4000);
 });
 
-other.login("TOKEN_BOT")
+other.login("NDY0NDY5NjA2NjMxOTk3NDQy.DrnqqA.6vp2KkT9B6TGs9nsVFqkzNd5rMk")
