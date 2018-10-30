@@ -1,22 +1,15 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const other = new Discord.Client();
 
+other.on('ready', () => {
+  console.log(`Logged in as ${other.user.tag}!`);
+});
 
-client.on('ready', async () => {
+other.on('ready', async () => {
       let ReBeL = ["هلا بلزين تراني بوت تبند اشيلك","هي انا بولعها كريديتس لوووووول","Hi Im Credits Agaaaaaaaaain"]
   setInterval(() => {
-client.channels.get("505806507556995075").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+other.channels.get("505811455740739595").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },4000);
 });
 
-
-
-
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-
-
-
-client.login("NDY0NDY5NjA2NjMxOTk3NDQy.DrZCUg.QIqbNvVXPDiEjaslCoxpxJF843E");
+other.login("TOKEN_BOT")
