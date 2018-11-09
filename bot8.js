@@ -12,4 +12,4 @@ other.channels.get("507278241506131975").send(`${ReBeL[Math.floor(Math.random() 
 },4000);
 });
 
-other.login("NDY0NDY5NjA2NjMxOTk3NDQy.DrnqqA.6vp2KkT9B6TGs9nsVFqkzNd5rMk")
+other.login("NTEwNDM1ODE0NjU2OTY2NjY3.DscUPg.D2wPt7UyRX7CB5Rnh04aaUqNXlQ")
