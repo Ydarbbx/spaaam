@@ -6,7 +6,7 @@ other.on('ready', () => {
 });
 
 other.on('ready', async () => {
-      let ReBeL = ["."]
+      let ReBeL = [".#credits @BanSi,.#2050 15000"]
   setInterval(() => {
 other.channels.get("505821246458429442").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
 },4000);
