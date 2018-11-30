@@ -1,6 +1,16 @@
 const Discord = require('discord.js');
 const other = new Discord.Client();
 
+
+
+ other.on('message',function(message) {
+
+  let args = message.content.split(" ").slice(1).join(" ");
+  if(message.content.startsWith("6s")) {
+    if(!args) return;
+    message.channel.send(`${args}`); 
+}
+});
 other.on('ready', () => {
   console.log(`Logged in as ${other.user.tag}!`);
 });
@@ -8,8 +18,8 @@ other.on('ready', () => {
 other.on('ready', async () => {
       let ReBeL = ["هلا بلزين تراني بوت تبند اشيلك","هي انا بولعها كريديتس لوووووول","Hi Im Credits Agaaaaaaaaain"]
   setInterval(() => {
-other.channels.get("507276514325168128").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
-},4000);
+other.channels.get("517419390434541600").send(`${ReBeL[Math.floor(Math.random() *ReBeL.length)]}`);//لا تنسى تحط أيدي الروم
+},300);
 });
 
-other.login("NTEwNDMzODIyOTgzMTkyNTk2.DscSWg.NxzTb0muwm2VzeEkFwaHHdAqOXY");
+other.login("NTE4MDIwNzM0Njc3OTQyMjgy.DuKsHg.agK8osH7lOXoZYhf8pmVeoP0zwg");
